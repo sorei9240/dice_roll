@@ -8,6 +8,7 @@ print(f"Hi {name}, let's play a dice rolling game!")
 
 
 def roll_dice():
+    print("Now rolling...")
     return random.randint(minimum_value, maximum_value)
 
 def play_game():
